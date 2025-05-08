@@ -13,10 +13,12 @@ Performance is evaluated on a 9-minute stream of mocked Level-1 data and benchma
 - VWAP (volume-weighted average price)
 
 ## Project Files
-- `backtest.py`: Core script that implements the allocator, simulates execution, performs parameter tuning, and prints a final JSON summary.
-- `plot_results.py`: Optional script that generates `results.png`, showing cumulative execution cost over time.
-- `results.png`: Visualization of cumulative cost for the best run.
-- `README.md`: This file.
+- `backtest.py`: Core script that implements the allocator, simulates execution, performs parameter tuning, and prints a final JSON summary
+- `plot_results.py`: Optional script that generates `results.png`, showing cumulative execution cost over time
+- `results.png`: Visualization of cumulative cost for the best run
+- `README.md`: Project description and instructions
+- `requirements.txt` – Python dependencies
+- `.python-version` – Specifies Python version (3.8.18)
 
 ## Parameter Search
 Grid search was conducted over:
